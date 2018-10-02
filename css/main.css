@@ -12,7 +12,7 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
-  transform: rotate(30deg) scale(1.5) translate(100px, 50px);
+  transform: rotate(30deg) scale(1.5) translate(300px,-50px);
   transition: all 250ms linear;
 }
 
@@ -31,7 +31,7 @@ html {
 }
 
 .polaroid:nth-child(1){
-  transform: rotate(30deg);
+  transform: rotate(-36deg);
 
 }
 .polaroid:nth-child(2){
