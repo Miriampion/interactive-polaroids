@@ -14,11 +14,13 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   transform: rotate(30deg) scale(1.5) translate(300px,-50px);
   transition: all 250ms linear;
+  position: absolute;
 }
 
 .polaroid > img {
   display: block;
   width: 100%;
+  position: relative;
 }
 
 .polaroid > figcaption {
@@ -30,15 +32,14 @@ html {
   height: 200px;
 }
 
-.polaroid:nth-child(1){
+.polaroid:nth-child(1) {
   transform: rotate(-36deg);
-
 }
-.polaroid:nth-child(2){
+.polaroid:nth-child(2) {
   transform: rotate(30deg);
 }
 
-.polaroid:nth-child(3){
-  transform: rotate(30deg);
+.polaroid:nth-child(3) {
+  transform: rotate(-30deg);
 
 }
