@@ -20,12 +20,13 @@ html {
 .polaroid > img {
   display: block;
   width: 100%;
-  position: relative;
 }
 
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  bottom:.5em;
 }
 
 .polaroid:hover {
@@ -33,13 +34,33 @@ html {
 }
 
 .polaroid:nth-child(1) {
+  left: 50%;
+  top: 10em;
   transform: rotate(-36deg);
 }
 .polaroid:nth-child(2) {
+  left: 30%;
+  top: 10em;
   transform: rotate(30deg);
 }
 
 .polaroid:nth-child(3) {
+  left: 50%;
+  top: 10em;
+  transform: rotate(-30deg);
+
+}
+.polaroid:nth-child(1):hover {
+
+  transform: rotate(-36deg);
+}
+.polaroid:nth-child(2):hover {
+
+  transform: rotate(30deg);
+}
+
+.polaroid:nth-child(3):hover {
+
   transform: rotate(-30deg);
 
 }
